@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2024-03-08T08:30:56.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="H419i6OaBg1wAJF08RaK" version="23.0.2" type="device">
+  <diagram name="Página-1" id="dekZPhLnL6oZDKue51V0">
+    <mxGraphModel dx="1479" dy="1230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vy1c47OGrriA_-yr6L5l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-1" target="vy1c47OGrriA_-yr6L5l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-1" target="vy1c47OGrriA_-yr6L5l-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-1" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-746" y="-312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-2" value="Arquitetura do ProductFormActivity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-395" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-3" target="vy1c47OGrriA_-yr6L5l-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-3" value="chama" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-597" y="-297" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-5" target="vy1c47OGrriA_-yr6L5l-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-5" target="vy1c47OGrriA_-yr6L5l-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-5" value="Composable ProductFormScreen&lt;br&gt;STATEFUL" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="-318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-7" target="vy1c47OGrriA_-yr6L5l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-7" target="vy1c47OGrriA_-yr6L5l-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-7" value="State" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-725.5" y="-200" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-9" value="onSaveClick" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-740.5" y="-145" width="109" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-11" target="vy1c47OGrriA_-yr6L5l-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-11" target="vy1c47OGrriA_-yr6L5l-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-11" value="Composable&lt;br&gt;ProductFormScreen&lt;br&gt;STATELESS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="-335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-16" value="contém as variáveis dos Formulários do Stateless, mantendo seu estado com rememberSaveable.&lt;br&gt;Ao passar o stateHolder, criamos uma instancia de uma val state = remember (variaveis a serem lembradas) { StateHolder( parametros ) }" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="-150" width="262" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-18" target="vy1c47OGrriA_-yr6L5l-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-18" value="Contém os Formulários (OutlinedTextField)&lt;br&gt;//urlImagem&lt;br&gt;//nome&lt;br&gt;//preco&lt;br&gt;//descricao" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="-179" width="120" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-21" target="vy1c47OGrriA_-yr6L5l-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-21" target="vy1c47OGrriA_-yr6L5l-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-21" value="StateHolder" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-117" y="-410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-22" target="vy1c47OGrriA_-yr6L5l-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-22" value="onSaveClick" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="-338" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vy1c47OGrriA_-yr6L5l-24" target="vy1c47OGrriA_-yr6L5l-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-24" value="onSaveClick" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="-345" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-28" value="Vai receber o onSaveClick por meio de parametro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-84" y="-499" width="187" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-30" value="vai puxar o onSaveClick por meio de parametro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="212" y="-440" width="197" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vy1c47OGrriA_-yr6L5l-32" value="contém o botão que vai chamar a função (que está dentro do StateHolder)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="-16" width="120" height="66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

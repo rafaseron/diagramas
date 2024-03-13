@@ -1,0 +1,276 @@
+<mxfile host="Electron" modified="2024-03-13T07:56:36.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="2wQBTulyynNop7K7xnRj" version="23.0.2" type="device">
+  <diagram name="Página-1" id="vnE-OhJ1quT59aBhmt5D">
+    <mxGraphModel dx="8960" dy="5733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;ARQUITETURA DO JETPACK NAVIGATION NO COMPOSE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1891" y="1651" width="437" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-7" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;ARQUITETURA DE NAVEGAÇÃO COM O ADVENTO DOS FRAGMENTS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1829" y="-588" width="534" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1849" y="-167" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-9" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1841" y="-161" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1823" y="-96" width="198" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-12" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1843" y="-35" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-14" target="b6XDqglJRnaAeLfVJK7R-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1821" y="-924" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-15" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1814" y="-915" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-21" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;ARQUITETURA DE NAVEGAÇÃO NO &#39;PASSADO&#39;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1829" y="-1324" width="437" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-28" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1483" y="-924" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-29" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1476" y="-915" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-32" value="&lt;h1&gt;Uma Activity chamava a outra&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Isso fazia com que as Activities se empilhassem (igual o sistema de Pilha).&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Quando você voltava, o app retornava a Activity anterior.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;// Agora imagine o quão pesado é manter várias Activities, principalmente EMPILHADAS&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1841" y="-1132" width="784.5" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-33" value="&lt;h1&gt;Com o advento dos Fragments, a Google recomendava que o app tivesse menos Activities (ou possivelmente uma só) e com Vários Fragments dentro dela&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Por sua vez, quem ficavam Empilhados eram dos Fragments, que são bem mais leves do que Activities.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Isso deixava o Aplicativo mais leve e performático.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Era extremamente comum o app ter 1 Activity e vários Fragments dentro dela, fazendo apenas a Navegação entre Fragments&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1885" y="-452" width="794" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-34" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1465" y="-216" width="388" height="388" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-35" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1376" y="-201" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1444" y="-140" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-41" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1453" y="-85" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1254" y="-132" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-43" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1263" y="-77" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1353" y="16" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-45" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1362" y="71" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-58" value="&lt;h1&gt;A Activity funciona como um Container que roda Composable Screens. Trocamos entre qual Composable está sendo renderizado naquele momento&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;O funcionamento é muito similar ao que acontece com uma Activity com Vários Fragments dentro. Porém o efeito para o Usuário, é a aparência de que estamos trocando de uma Activity para outra Activity.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;É o melhor dos dois mundos&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Um excelente desempenho para o app e uma experiência de múltiplas telas ao usuário&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2048" y="1806" width="919" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-73" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;NAVEGACÃO ENTRE FRAGMENTS USANDO O NAVIGATION&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1855.5" y="271" width="534" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-74" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1876" y="709" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-75" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1868" y="715" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-76" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1850" y="780" width="198" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-77" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1870" y="841" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-78" value="&lt;h1&gt;Com o surgimento do Jetpack Navigation, o Fragment Manager passou a ser substituido pelo Jetpack Navigation&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Desta maneira, o Jetpack Navigation fazia a mesma função do Fragment Manager. Tudo funcionava da mesma maneira. Só mudava que ao invés de lidar com o Fragment Manager, o desenvolvedor tinha a opção de lidar com um Manager mais moderno, que era. o Jetpack Navigation.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Mudanças em relação ao Funcionamento: &lt;/b&gt;O Fragment Manager trabalha com o sistema de Empilhamento de um Fragment em cima do outro. Cada novo fragment aberto, Empilha em cima do antigo.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;O Jetpack Navigation introduz um sistema de Navegação de Gráficos (semelhante a um Roadmap), com trilhas de navegação &quot;permitidas&quot;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1997" y="424" width="1006" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-79" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1492" y="660" width="388" height="388" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-80" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1403" y="675" width="232" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-81" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1471" y="736" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-82" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="791" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-83" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1281" y="744" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-84" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="799" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-85" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="892" width="138" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-86" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;FRAGMENT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="947" width="161" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-87" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-1843" y="1233" width="623" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-88" target="b6XDqglJRnaAeLfVJK7R-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-88" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;ANDROID JETPACK NAVIGATION&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1772" y="1262" width="472" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-91" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="2064" width="296" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-92" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2061" y="2067" width="171" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-96" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2079" y="2191" width="187" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-97" value="COMPOSABLE&lt;br&gt;SCREEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2074" y="2214.5" width="177" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-98" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1655" y="2064" width="361" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-99" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;ACTIVITY&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1588" y="2075" width="171" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-100" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1637.5" y="2143" width="138" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-101" value="COMPOSABLE&lt;br&gt;SCREEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1657" y="2160" width="177" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-106" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1456.5" y="2143" width="138" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-107" value="COMPOSABLE&lt;br&gt;SCREEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1476" y="2160" width="177" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-108" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1546.5" y="2239" width="138" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-109" value="COMPOSABLE&lt;br&gt;SCREEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1566" y="2256" width="177" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-110" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1601.5" y="2340" width="138" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-111" value="COMPOSABLE&lt;br&gt;SCREEN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1621" y="2357" width="177" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-112" target="b6XDqglJRnaAeLfVJK7R-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-112" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-2205" y="2533" width="623" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-113" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;ANDROID JETPACK NAVIGATION&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2134" y="2562" width="472" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-116" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1210" y="2239" as="sourcePoint" />
+            <mxPoint x="-443" y="2239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-117" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Vamos entender com mais profundidade&lt;br&gt;como o Navigation &#39;conhece&#39; todos nossos&lt;br&gt;Composable&#39;s screen para&lt;br&gt;trocar entre um e outro&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b6XDqglJRnaAeLfVJK7R-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-118" value="&lt;h1&gt;Existe um Navigation Graph (Roadmap)&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Desta maneira, o Graph dita se o Composable A irá ir para o Composable C, ou se só o Composable B faz a navegação ao C.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Dessa forma temos uma estrutura de Composable Parents neste mapeamento de Composables&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1986" width="658" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-119" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="2160" width="431" height="431" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-120" target="b6XDqglJRnaAeLfVJK7R-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-120" value="Composable &lt;br&gt;Screen A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="2249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-121" target="b6XDqglJRnaAeLfVJK7R-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-121" value="Composable&amp;nbsp;&lt;br&gt;Screen B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="2356" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-122" value="Composable&amp;nbsp;&lt;br&gt;Screen D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="2429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-123" target="b6XDqglJRnaAeLfVJK7R-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-123" value="Composable&amp;nbsp;&lt;br&gt;Screen C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96" y="2244" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-129" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;NAVIGATION GRAPH&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="2174" width="342" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-130" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="2371" as="sourcePoint" />
+            <mxPoint x="1003" y="2365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-133" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Além do Sistema de Graph no Fluxo&lt;br&gt;de Navegação entre Composables, também&lt;br&gt;existe o Fluxo por Empilhamento de Composables&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b6XDqglJRnaAeLfVJK7R-130">
+          <mxGeometry x="0.0559" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-134" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1126" y="2112" width="450" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-135" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;COMPOSABLE STACK&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1218" y="2128" width="260" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-137" value="Composable Screen A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="2475" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-138" value="Composable Screen B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="2398" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-139" value="Composable Screen C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1203.5" y="2317" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-140" value="Composable Screen D" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200.5" y="2236" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-141" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Todo novo Composable aberto é Empilhado EM CIMA da Pilha&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Segue a famosa regra First in -&amp;gt; First out&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Quando o Composable D é fechado, é igual dar um &#39;Pop&#39; em uma Pilha (ação de remover o elemento mais acima da Pilha)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="1841" width="715" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-142" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1609" y="2354.33" as="sourcePoint" />
+            <mxPoint x="2166" y="2354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-143" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Então ao Fechar o Composable &lt;br&gt;Screen D (Retornar depois de ter&lt;br&gt;Navegado do Composable C -&amp;gt; D), temos:&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b6XDqglJRnaAeLfVJK7R-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-144" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2213" y="2092" width="450" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-145" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;COMPOSABLE STACK&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2305" y="2108" width="260" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-146" value="Composable Screen A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2294" y="2455" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-147" value="Composable Screen B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2294" y="2378" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-148" value="Composable Screen C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290.5" y="2297" width="295" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-03-13T07:56:36.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="2wQBTulyynNop7K7xnRj" version="23.0.2" type="device">
+<mxfile host="Electron" modified="2024-03-13T09:16:40.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="IGVUuPPU8t4EhqgjOfSN" version="23.0.2" type="device">
   <diagram name="Página-1" id="vnE-OhJ1quT59aBhmt5D">
-    <mxGraphModel dx="8960" dy="5733" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4368" dy="2840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,6 +269,95 @@
         </mxCell>
         <mxCell id="b6XDqglJRnaAeLfVJK7R-148" value="Composable Screen C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2290.5" y="2297" width="295" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-151" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 40px;&quot;&gt;APLICAÇÃO PRÁTICA: Navegação entre Composables Utilizando o Nagivation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2201" y="3077" width="827" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-152" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1924" y="3287" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-153" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Activity&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1841.5" y="3306" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-154" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;Composable &#39;Pai&#39;/Principal&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;//Neste Composable há: &lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;@Composable&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;fun ComposablePrincipal(parametros que serão passados&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;para os composables chamados abaixo){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- val navController = rememberNavController( )&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- NavHost(navController = navController, startDestination = &quot; route_to_CompA&quot;){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;composable(&quot;route_to_CompA&quot;) { ComposableScreenA(parametros do composable) }&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;composable(&quot;route_to_CompB&quot;) { ComposableScreenB(parametros do composable) }&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;}&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2199" y="3719" width="533" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-155" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-152" target="b6XDqglJRnaAeLfVJK7R-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2012" y="3656" as="sourcePoint" />
+            <mxPoint x="-1912" y="3656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-156" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Passa as informações de Parametros que os ComposableScreen precisam&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="b6XDqglJRnaAeLfVJK7R-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-157" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1621" y="3783" as="sourcePoint" />
+            <mxPoint x="-1157" y="3446" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1432" y="3613" />
+              <mxPoint x="-1482" y="3563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-158" value="&lt;h1 style=&quot;font-size: 27px;&quot;&gt;Ou seja:&lt;/h1&gt;&lt;p style=&quot;font-size: 27px;&quot;&gt;&lt;font style=&quot;font-size: 27px;&quot;&gt;A Arquitetura do Código ali será a a seguinte:&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1121" y="3279" width="590" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-159" target="b6XDqglJRnaAeLfVJK7R-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-159" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1004" y="3448" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-160" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Activity&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-979" y="3466" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-161" target="b6XDqglJRnaAeLfVJK7R-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b6XDqglJRnaAeLfVJK7R-161" target="b6XDqglJRnaAeLfVJK7R-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-161" value="ComposablePrincipal" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-946.5" y="3804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-163" value="ComposableScreenA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1111" y="3964" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-165" value="ComposableScreenB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-766" y="3961" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-167" value="Passa os parametros que os ComposableScreen precisam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="3728" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-168" value="Distruibui os parametros recebidos (referentes ao ComposableScreenA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="3878" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-169" value="Distruibui os parametros recebidos (referentes ao ComposableScreenB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-696" y="3866" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-171" value="&lt;h1&gt;As rotas funcionam com uma estrutura de Key-Value (Map)&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Por exemplo do Composable A: sua Key é o &quot;route_to_CompA&quot; e o Value (contido em { } ) é executar a função Composable ComposableScreenA( ).&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Também importante destacar que o parametro &lt;b style=&quot;&quot;&gt;&#39;startDestination&#39; &lt;/b&gt;do NavHost é a Key (route) do Composable que será atribuido como o &lt;b style=&quot;&quot;&gt;&#39;Main Composable&#39; &lt;/b&gt;-&amp;gt; Mesmo efeito que teriamos em View de definir uma Activity como a Main Launcher&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2291" y="4035" width="703" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-172" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Mas como chegar neste ponto se ainda os Composables não estão conversando entre si?&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Agora vamos ver como os Composables se comunição entre si, chamando um objeto de NavHostController&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="3259" width="597" height="297" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-173" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="b6XDqglJRnaAeLfVJK7R-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-577" y="3735" as="sourcePoint" />
+            <mxPoint x="-326" y="3348" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-509" y="3535" />
+              <mxPoint x="-112" y="3561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-174" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;&lt;b&gt;Vamos aqui simular a Navegação entre o Composable A -&amp;gt; B por meio&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;&lt;b&gt;de um click de um Botão:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;@Composable&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;fun ComposablePrincipal(parametros que serão passados&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 15px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;para os composables chamados abaixo){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- val navController = rememberNavController( )&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- NavHost(navController = navController, startDestination = &quot; route_to_CompA&quot;){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;composable(&quot;route_to_CompA&quot;) { ComposableScreenA(&lt;b&gt;navController&lt;/b&gt;, parametros do composable) }&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;composable(&quot;route_to_CompB&quot;) { ComposableScreenB(parametros do composable) }&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;@Composable&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;fun ComposableScreenA(&lt;b&gt;navController: NavHostController&lt;/b&gt;){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Button(modifier: Modifier, onClick = { navController.navigate(route = &quot;route_to_compB&quot;)&amp;nbsp; } ){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Text(&quot;Click neste Botão para mudar de ComposableScreen&quot;)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;@Composable&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;fun ComposableScreenB(){&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="16" y="3474" width="598" height="621" as="geometry" />
+        </mxCell>
+        <mxCell id="b6XDqglJRnaAeLfVJK7R-175" value="&lt;h1 style=&quot;font-size: 41px;&quot;&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;Como funciona a Navegação do Jetpack Navigation&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 41px;&quot;&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;- Ao mudar de um Composable A -&amp;gt; B, usamos o sistema de Rotas (Key-Value / Map)&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 41px;&quot;&gt;- Agora dentro do Composable B, temos então um Empilhamento de Composables, com o &#39;ComposableScreenB&#39; em cima do &#39;ComposableScreenA &#39;&lt;/p&gt;&lt;p style=&quot;font-size: 41px;&quot;&gt;- Ao Apertar o Botão de Voltar do Android: temos então o &#39;Pop&#39; no empilhamento -&amp;gt; isso faz o B ser fechado e retornarmos ao Composable anterior (no caso, o A)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2817" y="1599" width="1342" height="860" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

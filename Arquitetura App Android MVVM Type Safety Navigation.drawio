@@ -1,0 +1,127 @@
+<mxfile host="Electron" modified="2024-03-23T14:50:25.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="t5cXpvC97oTgMaImWi3b" version="23.0.2" type="device">
+  <diagram name="Página-1" id="XCRIaIfhg3DPeklE4WLR">
+    <mxGraphModel dx="7170" dy="3695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uSQLZHkYN2oA5soamM2N-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1199" y="616" width="1152" height="1152" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-2" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;MainActivity&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1637.75" y="649" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-3" value="Distruibui os parametros recebidos (referentes ao ComposableScreenA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1199" y="2672" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-4" value="Distruibui os parametros recebidos (referentes ao ComposableScreenB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2224" y="2635" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-5" value="ComposableScreenA" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1314.5" y="2748" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-6" value="ComposableScreenB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2139.75" y="2745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-7" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 80px;&quot;&gt;ARQUITETURA DE APPS ANDROID USANDO TYPE SAFETY NAVIGATION&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 35px;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;Para apps com poucas telas, a arquitetura acima funciona. Porém acaba não sendo adequada (porque deixa seu app dificil de escalar)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;A Arquitetura com Type Safety Navigation da a habilidade de trabalhar com projetos grandes com menos complexidade, e também dar escalabilidade em apps menores.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 35px;&quot;&gt;Essa Arquitetura trabalha com o padrão MVVM e Type Safety Navigation - os melhores padrões de projeto&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="157" y="138" width="3028" height="417" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1513.5" y="1392" width="465" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-9" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;ComposableMaster&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1565.25" y="1425" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-10" value="Instancia o navController" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1590.5" y="697" width="288.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-11" value="Scaffold (topBar, BottomBar, floatingActionButton)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1645.25" y="1619" width="212" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1644.5" y="1668" width="223.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSQLZHkYN2oA5soamM2N-15" target="uSQLZHkYN2oA5soamM2N-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSQLZHkYN2oA5soamM2N-15" target="uSQLZHkYN2oA5soamM2N-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-15" value="NavHostComposable(navController)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1663" y="1675.5" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-16" value="val currentBackStack by navController" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580.5" y="739" width="321.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-17" value="val currentDestination" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1601.75" y="772" width="284" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-18" value="var selectedItemOnBottomBar by remember (currentDestination) {&lt;br&gt;val item = currentDestination?.let{&lt;br&gt;navDestination -&amp;gt;&lt;br&gt;listBottomAppBar.find{&lt;br&gt;bottomAppBarItem -&amp;gt;&lt;br&gt;bottomAppBarItem.destination == navDestination.route&lt;br&gt;}&lt;br&gt;} /: listBottomAppBar.first( )&lt;br&gt;mutableStateOf(item)&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1539" y="805" width="385" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-19" value="fun showBottomBar( ): Boolean{&lt;br&gt;currentDestination.let{&lt;br&gt;p -&amp;gt;&amp;nbsp;&lt;br&gt;when (p.route.toString( )){&lt;br&gt;homeRoute -&amp;gt; return true&lt;br&gt;else -&amp;gt; return false&lt;br&gt;}&lt;br&gt;} ?: return false&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1601.75" y="1140" width="279" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-20" value="fun showTopBar ( ): Boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1295" width="272" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-21" value="fun showFAB ( ): Boolean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1612.5" y="1335" width="238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-22" value="(showBottomBar, showTopBar, showFAB, selectedItemOnBottomBar, onFabClick4, bottomBarItemClicked = {&lt;br&gt;navItem -&amp;gt;&lt;br&gt;selectedItemOnBottomBar&amp;nbsp;= navItem&lt;br&gt;routeFlow (navItem, navController) }&lt;br&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1574.25" y="1466" width="363" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-23" value="fun routeFlow (navItem: BottomAppBarItem, navController: NavController){&lt;br&gt;when (navItem.destination){&lt;br&gt;homeRoute -&amp;gt; navController.navigateToHomeRoute( )&lt;br&gt;menuRoute -&amp;gt; navController.navigateToMenuRoute( )&lt;br&gt;else -&amp;gt; navController.navigateToHomeRoute ( )&lt;br&gt;}&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1482.75" y="1007" width="553" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSQLZHkYN2oA5soamM2N-25" target="uSQLZHkYN2oA5soamM2N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="2068" width="520" height="473" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uSQLZHkYN2oA5soamM2N-27" target="uSQLZHkYN2oA5soamM2N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-27" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;ScreenNavigationB&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2108" y="2068" width="183.5" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-28" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;ScreenNavigationA&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1292" y="2086" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="2130" width="356.5" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-30" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;fun NavGraphBuilder.screenNavigationA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1204.5" y="2137" width="323" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-31" value="cria a rota" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1289.5" y="2177" width="147" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-32" value="instancia o viewModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1306.5" y="2207" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-33" value="retira o uiState do viewModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1279.25" y="2239" width="178" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-34" value="passa o uiState do viewModel pro ComposableScreen( )" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1213.5" y="2269" width="318" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1187.5" y="2366" width="367" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-36" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;fun NavController.navigateToScreenA( ){&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1206.5" y="2378" width="323" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-37" value="navigate(route = screenARoute){&lt;br&gt;launchSingleTop&lt;br&gt;popUpTo(screenARoute)&lt;br&gt;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="2419" width="192" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-38" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;}&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1476.5" y="2475" width="24" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="uSQLZHkYN2oA5soamM2N-39" value="passa parametros pro ComposableScreen( )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1222.5" y="2299" width="295" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
